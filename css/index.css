@@ -48,3 +48,10 @@ nav ul li{
 nav ul{
     margin-right: 4rem;
 }
+.background-img{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
