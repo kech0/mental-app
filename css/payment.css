@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h2 {
+    padding-left: 0.5rem;
+}
+
+.logo img {
+    border-radius: 20rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: 4rem;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    background-color: #55C1CF;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-left: 4rem;
+
+}
+
+nav ul {
+    margin-right: 4rem;
+}
+
+.button1 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding-top: 2px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 160px;
+    height: 3rem;
+}
+.button1:hover{
+    background-color: rgb(7, 7, 7, 0.7);
+}
+
+.order-flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.order3 {
+    background-color: #F1E9E9;
+    height: 450px;
+    width: 500px;
+    margin-left: 70px;
+    padding-top: 40px;
+
+}
+
+.order3 img,
+.order3 input {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.order h2 {
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.order-last {
+    margin-top: -70px;
+}
+
+.order-last h3 {
+    margin-left: 70px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.fig1 {
+    margin-left: 250px;
+}
+
+.fig2 {
+    margin-left: 220px;
+}
+
+.fig3 {
+    margin-left: 320px;
+}
+
+.labor {
+    margin-left: 20px;
+}
+
+.transport {
+    margin-left: 20px;
+}
+
+.total {
+    margin-left: 20px;
+}
+
+.order2 {
+    background-color: rgba(159, 204, 243, 0.7);
+    padding: 3rem;
+    height: 230px;
+    border-radius: 4rem;
+}
+
+.order1 img {
+    width:180px;
+    height:180px;
+    border-radius: 5rem;
+}
