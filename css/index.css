@@ -1,5 +1,18 @@
-*, *::before, 
-body{
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
     padding: 0;
+    
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    border-radius: 200rem;
+    height: 5rem;
 }
