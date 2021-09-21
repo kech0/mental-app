@@ -12,7 +12,36 @@ body {
 .logo{
     display: flex;
 }
+.logo h2{
+    padding-left: 0.5rem;
+}
 .logo img{
     border-radius: 200rem;
+    height: 3rem;
+    margin-left: 4rem;
+    
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
     height: 5rem;
+    align-items: center;
+    background-color: aquamarine;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    list-style-type: none;
+    padding-left: 4rem;
+    
+}
+nav ul{
+    margin-right: 4rem;
 }
