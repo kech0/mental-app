@@ -8,6 +8,10 @@ div{
     margin: 0;
     padding: 0;
 }
+p{
+    margin: 0;
+    padding: 0;
+}
 section{
     margin: 0;
     padding: 0;
@@ -129,4 +133,21 @@ nav ul {
     
     
     
+}
+.first-section-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-section img{
+    height: 50vh;
+   
+}
+.first-section p{
+    width: 50vw;
+    text-align: center;
+    padding-left: 2rem;
+}
+.first-section h1{
+    text-align: center;
 }
