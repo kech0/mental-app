@@ -99,3 +99,10 @@ nav ul {
 .background-img button:hover{
     background-color: rgb(114, 199, 30,0.6);
 }
+
+.sign-grid{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px,auto)repeat(3,100px);
+    
+}
