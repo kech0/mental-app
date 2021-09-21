@@ -26,7 +26,6 @@ body {
     width: 3.5rem;
     margin-left: 4rem;
 
-
 }
 
 header {
@@ -76,7 +75,7 @@ nav ul {
     background-color: rgba(230, 230, 240, 0.45);
     color: black;
     font-weight: 700;
-    
+
 }
 .tagline p{
     line-height: 5rem;
