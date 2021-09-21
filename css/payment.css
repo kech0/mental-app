@@ -133,8 +133,16 @@ nav ul {
 .total {
     margin-left: 20px;
 }
-.order2{
-background-color: rgba(93, 155, 209, 0.7);
-padding: 3rem;
-height: 230px;
+
+.order2 {
+    background-color: rgba(93, 155, 209, 0.7);
+    padding: 3rem;
+    height: 230px;
+    border-radius: 4rem;
+}
+
+.order1 img {
+    width:180px;
+    height:180px;
+    border-radius: 5rem;
 }
