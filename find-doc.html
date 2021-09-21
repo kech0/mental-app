@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find Doctor</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/find-doc.css">
 </head>
 
 <body>
@@ -26,6 +28,27 @@
             </ul>
         </nav>
     </header>
+
+    <section id="findDoc">
+        <h2 class="text-center pt-3 pb-3">Mental Health Check</h2>
+        <div class="row g-3 container-fluid" id="search-area">
+            <div class="col-sm-5">
+                <select class="form-select" aria-label="Choose Psychologist">
+                    <option selected>Select type of Psychologist</option>
+                    <option value="1">Addiction</option>
+                    <option value="2">Financial Stress</option>
+                    <option value="3">PTSD</option>
+                </select>
+            </div>
+            <div class="col-sm">
+                <input type="text" class="form-control" placeholder="Enter location" aria-label="State">
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-success">Search</button>
+            </div>
+        </div>
+
+    </section>
 
 </body>
 
