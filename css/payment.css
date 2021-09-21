@@ -72,6 +72,10 @@ nav ul {
     border-radius: 30px;
     margin-top: 10px;
     margin-left: 160px;
+    height: 3rem;
+}
+.button1:hover{
+    background-color: rgb(7, 7, 7, 0.7);
 }
 
 .order-flex {
