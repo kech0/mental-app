@@ -1,7 +1,16 @@
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -61,7 +70,7 @@ nav ul {
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100vw;
+    min-width: 90vw;
     background-size: cover;
 
 }
@@ -72,14 +81,16 @@ nav ul {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
+    width: 90vw;
     background-color: rgba(230, 230, 240, 0.45);
     color: black;
     font-weight: 700;
-    
+
 }
-.tagline p{
+
+.tagline p {
     line-height: 5rem;
+    margin-left: 2rem;
 }
 
 .background-img p {
@@ -96,13 +107,26 @@ nav ul {
     border: none;
     font-weight: 700;
 }
-.background-img button:hover{
-    background-color: rgb(114, 199, 30,0.6);
+
+.background-img button:hover {
+    background-color: rgb(114, 199, 30, 0.6);
 }
 
-.sign-grid{
+.sign-grid {
     display: grid;
-    grid-template-columns: repeat(4,100px);
-    grid-template-rows: minmax(120px,auto)repeat(3,100px);
+    grid-template-columns: repeat(4, 200px);
+    column-gap: 7rem;
+    row-gap: 3rem;
+    justify-content: center;
+
+}
+
+.sign-grid p {
+    border: 2px solid blue;
+    text-align: center;
+    background-color: rgb(247, 18, 18, 0.7);
+    
+    
+    
     
 }
