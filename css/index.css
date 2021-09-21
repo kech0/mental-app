@@ -116,24 +116,9 @@ nav ul {
     background-color: rgb(114, 199, 30, 0.6);
 }
 
-.sign-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 200px);
-    column-gap: 7rem;
-    row-gap: 3rem;
-    justify-content: center;
 
-}
 
-.sign-grid p {
-    border: 2px solid blue;
-    text-align: center;
-    background-color: rgb(247, 18, 18, 0.7);
-    
-    
-    
-    
-}
+
 .first-section-flex{
     display: flex;
     justify-content: center;
@@ -150,4 +135,8 @@ nav ul {
 }
 .first-section h1{
     text-align: center;
+}
+.card-1{
+    height: 50px;
+    width: 50px;
 }
