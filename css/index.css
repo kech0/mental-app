@@ -11,13 +11,16 @@ body {
 }
 .logo{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo h2{
     padding-left: 0.5rem;
 }
 .logo img{
-    border-radius: 200rem;
-    height: 3rem;
+    border-radius: 20rem;
+    height: 3.5rem;
+    width: 3.5rem;
     margin-left: 4rem;
     
     
@@ -27,7 +30,7 @@ header{
     justify-content: space-between;
     height: 5rem;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #55C1CF;
 }
 nav ul{
     display: flex;
