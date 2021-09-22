@@ -1,25 +1,26 @@
-function doctor(name, description, specialization){
+function doctor(name, description, specialization, image){
     this.name = name;
     this.description = description;
     this.specialization = specialization;
+    this.image = image;
 }
 const doctors= [
     new doctor('Dr. Jack Bryce',`Dr. Bryce is amongst the best addiction psychologist in the part of the world. <br>
     He has had tremendous experience of expertise gained at top hospitals. <br>
     He also has 5 years of experience in Psychology field, especially with those dealing with
-    substance abuse.`, 'Addiction'),
+    substance abuse.`, 'Addiction', 'doctr1.jpg'),
     new doctor('Dr. Emily VanCamp',`Dr. Bryce is amongst the best addiction psychologist in the part of the world. <br>
     He has had tremendous experience of expertise gained at top hospitals. <br>
     He also has 5 years of experience in Psychology field, especially with those dealing with
-    substance abuse.`, 'PTSD'),
+    substance abuse.`, 'PTSD', 'doctr2.jpg'),
     new doctor('Dr. Jack Bryce',`Dr. Bryce is amongst the best addiction psychologist in the part of the world. <br>
     He has had tremendous experience of expertise gained at top hospitals. <br>
     He also has 5 years of experience in Psychology field, especially with those dealing with
-    substance abuse.`, 'Financial stress'),
+    substance abuse.`, 'Financial stress', 'doc3.jpeg'),
     new doctor('Dr.Renee Wilson',`Dr. Bryce is amongst the best addiction psychologist in the part of the world. <br>
     He has had tremendous experience of expertise gained at top hospitals. <br>
     He also has 5 years of experience in Psychology field, especially with those dealing with
-    substance abuse.`, 'Addiction')
+    substance abuse.`, 'Addiction', 'doc4.jpg')
 
 ]
 $(document).ready(function(){
