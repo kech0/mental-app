@@ -65,6 +65,10 @@ nav ul {
 .signup-form {
     background: #dfe7e9;
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    max-width: 100%;
+    margin: 0%;
+
 }
 
 .form-control {
