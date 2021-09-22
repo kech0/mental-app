@@ -1,6 +1,6 @@
 @import url(bootstrap.min.css);
 body {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAABlBMVEUAmv4AmvxnzTtNAAAAvUlEQVR4nO3dzQqAIAwA4Hr/l+7SIaqhG0I/ft9NcqI7OQy2LMDT1l1y2v1wTa4WRAWfk9M6w1qbOk69xJSSFe6glKzGvhPHuwurr9Y4FQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA+QVfCYrdC/Q0BYC71K8OEbZElCwAAgGJtOCnJAgAA+JGxRZ6SEQAAxiresU9h0VNY5+pfueSP+Rt0kmQBAMDPebBIkCwAAIBOUek0tqR6eYG2AUJMAhe9tmxLAAAAAElFTkSuQmCC");
+color: #55C1CF;
 }
 *,
 *::before,
@@ -59,3 +59,48 @@ nav ul li {
 nav ul {
     margin-right: 4rem;
 }
+
+.order .row .image img{
+    height: 25%;
+    width:40%;
+    object-fit: cover;
+    border-radius: .5rem;
+  }
+  
+  .order .row form{
+    flex:1 1 50rem;
+    padding:1rem;
+  }
+  
+  .order .row form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .order .row form .inputBox input, .order .row form textarea{
+    /* padding:1rem; */
+    margin:1rem 0;
+    /* font-size: 1.7rem; */
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.3);
+    border-radius: .3rem;
+    width:39%;
+    background-color: transparent;
+  }
+  
+  .order .row form textarea{
+    width:100%;
+    resize: none;
+    height:15rem;
+  }
+  
+  .order .row form .btn{
+    background:transparent;
+  }
+  
+  .order .row form .btn:hover{
+    background:var(--red);
+  }
+  

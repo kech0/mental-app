@@ -23,8 +23,6 @@ body {
     height: 3.5rem;
     width: 3.5rem;
     margin-left: 4rem;
-    
-    
 }
 header{
     display: flex;
@@ -44,7 +42,6 @@ ul a{
 nav ul li{
     list-style-type: none;
     padding-left: 4rem;
-    
 }
 nav ul{
     margin-right: 4rem;
