@@ -211,3 +211,7 @@ footer {
     height: 100px;
     box-sizing: 100%;
 }
+.services-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
