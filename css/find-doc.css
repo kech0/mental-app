@@ -50,6 +50,10 @@ nav ul{
     margin-right: 4rem;
 }
 
+.header-link{
+    text-decoration: none;
+    color: black;
+}
 /* document styling */
 #findDoc{
     background-color: #baf0f7;
