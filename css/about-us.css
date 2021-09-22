@@ -49,6 +49,20 @@ nav ul li{
 nav ul{
     margin-right: 4rem;
 }
+
+.list{
+    list-style: none;
+}
 #aboutUs{
-    background-color: #027b8b;
+    /* background-image: url("../images/bg.jpg"); */
+    /* height: 100vh;
+    width: 100vw; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: bisque;
+}
+#aboutUs {
+    font-size: large;
+    font-weight: 600;
+    color: rgb(5, 5, 5);
 }
