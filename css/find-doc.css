@@ -1,3 +1,6 @@
+
+@import url('family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Raleway&display=swap');
+
 /* header styling */
 *,
 *::before,
@@ -8,7 +11,7 @@
 body {
     margin: 0;
     padding: 0;
-    
+
 }
 .logo{
     display: flex;
@@ -23,8 +26,6 @@ body {
     height: 3.5rem;
     width: 3.5rem;
     margin-left: 4rem;
-    
-    
 }
 header{
     display: flex;
@@ -44,51 +45,49 @@ ul a{
 nav ul li{
     list-style-type: none;
     padding-left: 4rem;
-    
 }
 nav ul{
     margin-right: 4rem;
 }
 
+.header-link{
+    text-decoration: none;
+    color: black;
+}
 /* document styling */
 #findDoc{
     background-color: #baf0f7;
 }
-/* image styles */
-.docImage1{
-    border-radius: 100%;
-    width: 30%;
-    overflow: hidden;
-    height: 30%;
-    position: relative;
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+
+    background-size: cover;
+    -webkit-background-size: cover;
 }
-.docImage2{
-    border-radius: 100%;
-    width: 30%;
-    overflow: hidden;
-    height: 30%;
+.carousel-item::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
 }
-.docImage3{
-    border-radius: 100%;
-    width: 30%;
-    overflow: hidden;
-    height: 30%;
+.carousel-caption{
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
-.docImage4{
-    border-radius: 100%;
-    width: 30%;
-    overflow: hidden;
-    height: 30%;
+.carousel-caption h5{
+    font-size: 30px;
+    font-weight: 700;
 }
-.docImage5{
-    border-radius: 100%;
-    width: 30%;
-    overflow: hidden;
-    height: 30%;
-}
-.docImage6{
-    border-radius: 100%;
-    width: 30%;
-    overflow: hidden;
-    height: 30%;
+.carousel-caption p{
+
+    font-size: 20px;
+    top: 2rem;
 }
