@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Raleway&display=swap');
+
 *,
 *::before,
 *::after {
@@ -24,7 +26,8 @@ section {
 body {
     margin: 0;
     padding: 0;
-    
+    font-family: Raleway;
+
 
 }
 
@@ -211,7 +214,24 @@ footer {
     height: 100px;
     box-sizing: 100%;
 }
-.services-flex{
+
+.services-flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.services-flex img {
+    height: 25vh;
+    width: 20vh;
+
+
+}
+
+.service-1 {
+    padding-left: 80px;
+    margin-bottom: 3rem;
+    margin-right: 5rem;
 }
