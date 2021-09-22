@@ -1,6 +1,10 @@
 @import url(bootstrap.min.css);
 body {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAABlBMVEUAmv4AmvxnzTtNAAAAvUlEQVR4nO3dzQqAIAwA4Hr/l+7SIaqhG0I/ft9NcqI7OQy2LMDT1l1y2v1wTa4WRAWfk9M6w1qbOk69xJSSFe6glKzGvhPHuwurr9Y4FQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA+QVfCYrdC/Q0BYC71K8OEbZElCwAAgGJtOCnJAgAA+JGxRZ6SEQAAxiresU9h0VNY5+pfueSP+Rt0kmQBAMDPebBIkCwAAIBOUek0tqR6eYG2AUJMAhe9tmxLAAAAAElFTkSuQmCC");
+    
+}
+#contactForm{
+    background-color: 55C1CF;
 }
 *,
 *::before,
@@ -58,4 +62,5 @@ nav ul li {
 
 nav ul {
     margin-right: 4rem;
+    
 }
