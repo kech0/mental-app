@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <script src="https://kit.fontawesome.com/cceb9130a9.js" crossorigin="anonymous"></script>
     <script src="./js/jquery.js" defer></script>
-    <script src="./js/scripts.js" defer></script>
+    <script src="./js/order.js" defer type="module"></script>
 </head>
 
 <body>
@@ -35,37 +35,46 @@
     </header>
 
     <section class="container">
-        <div class="d-flex">
-            <div id="selected-dr">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <form id="booking-form">
+            <div class="d-flex">
+                <div id="selected-dr">
+                    <div class="card" id="dr-card" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <button class="btn btn-primary">Pay</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="schedule">
-                <div class="form-group">
-                    <label for="date">Select Date</label>
-                    <input name="date" id="date" class="form-control" type="date">
+                <div id="schedule">
+                    <div class="form-group">
+                        <label for="date">Select Date</label>
+                        <input name="date" id="date" class="form-control" type="date" required>
+                        <div class="invalid-feedback">
+                            Please select a date
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Select Time</label>
+                        <select name="hour" required>
+                            <option></option>
+                            <option value="8-10am">8-10am</option>
+                            <option value="10-12am">10-12am</option>
+                            <option value="2-3pm">2-3pm</option>
+                            <option value="3-4pm">3-4pm</option>
+                            <option value="4-5pm">4-5pm</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select the hour
+                        </div>
+                    </div>
+
                 </div>
-                <div class="form-group">
-                    <label for="time">Select Time</label>
-                    <select name="hour">
-                        <option value="8-10am">8-10am</option>
-                        <option value="10-12am">10-12am</option>
-                        <option value="2-3pm">2-3pm</option>
-                        <option value="3-4pm">3-4pm</option>
-                        <option value="4-5pm">4-5pm</option>
-                    </select>
-                </div>
-
-            </div>
-
+        </form>
         </div>
     </section>
 
