@@ -19,6 +19,6 @@ $(document).ready(function () {
             time: this.hour.value
         }
         localStorage.setItem("schedule", JSON.stringify(schedule))
-        window.location = "/payment.html"
+        window.location = "./payment.html"
     })
 })
