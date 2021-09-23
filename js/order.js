@@ -7,7 +7,7 @@ $(document).ready(function () {
     console.log(cardDiv)
     cardDiv.find("h5.card-title").html(doctor.name);
     cardDiv.find(".card-text").html(doctor.description);
-    cardDiv.find("img").attr("src", "/images/" + doctor.image);
+    cardDiv.find("img").attr("src", "../images/" + doctor.image);
     $("#booking-form").on("submit", function (evt) {
         evt.preventDefault()
         if (!this.checkValidity()) {
