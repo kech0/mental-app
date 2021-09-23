@@ -1,3 +1,6 @@
 $(document).ready(function(){
-    $('.carousel').carousel()
+    $('#contactForm').on('submit', function(evt){
+        evt.preventDefault();
+        alert("Thank you! " + this.name.value + " For you feedback");
+    });
 });
