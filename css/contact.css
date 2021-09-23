@@ -111,3 +111,9 @@ nav ul {
   text-decoration: none;
   color: black;
 }
+.image{
+   padding-left: 38%;
+   padding-top: 15%;
+   width: 100%;
+   height: auto;
+}
