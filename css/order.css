@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Raleway&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

@@ -1,10 +1,11 @@
-function doctor(name, description, specialization, image){
+
+export function doctor(name, description, specialization, image){
     this.name = name;
     this.description = description;
     this.specialization = specialization;
     this.image = image;
 }
-const doctors= [
+export const doctors= [
     new doctor('Dr. Jack Bryce',`Dr. Bryce is amongst the best addiction psychologist in the part of the world. <br>
     He has had tremendous experience of expertise gained at top hospitals. <br>
     He also has 5 years of experience in Psychology field, especially with those dealing with
