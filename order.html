@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental App</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/cceb9130a9.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery.js" defer></script>
+    <script src="./js/order.js" defer type="module"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <a class="header-link" href="./index.html">
+            <div class="logo">
+                <img src="./images/logo.jpg">
+                <h2>Mental</h2>
+            </div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./signup.html">Sign In/Register</a></li>
+                <li><a href="./find-doc.html">Find Doc</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <form id="booking-form">
+            <div class="d-flex">
+                <div id="selected-dr">
+                    <div class="card" id="dr-card" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <button class="btn btn-primary">Pay</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="schedule">
+                    <div class="form-group">
+                        <label for="date">Select Date</label>
+                        <input name="date" id="date" class="form-control" type="date" required>
+                        <div class="invalid-feedback">
+                            Please select a date
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Select Time</label>
+                        <select name="hour" required>
+                            <option></option>
+                            <option value="8-10am">8-10am</option>
+                            <option value="10-12am">10-12am</option>
+                            <option value="2-3pm">2-3pm</option>
+                            <option value="3-4pm">3-4pm</option>
+                            <option value="4-5pm">4-5pm</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select the hour
+                        </div>
+                    </div>
+
+                </div>
+        </form>
+        </div>
+    </section>
+
+
+
+    <!-- <div class="container"> -->
+    <footer class="bg-dark text-center text-white container-fluid">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"><i
+                        class="fab fa-twitter"></i></a>
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://Google.com/" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://Instagram.com/" role="button"><i
+                        class="fab fa-instagram"></i></a>
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://Linkedin.com/" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+            </section>
+            <!-- Section: Social media -->
+        </div>
+
+
+
+</body>

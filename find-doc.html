@@ -35,7 +35,38 @@
             </ul>
         </nav>
     </header>
-    </section>
+
+    <br>
+    <div class="text-center p-3">
+        <h3>MENTAL HEALTH CHECK</h3>
+    </div>
+    <form class="row g-3" id="searchForm">
+        <div class="col-sm-5">
+            <select class="form-select" name="specialization" aria-label="Default select example">
+                <option selected>Select type of psychologist</option>
+                <option value="Addiction">Addiction</option>
+                <option value="Financial stress">Financial stress</option>
+                <option value="PTSD">PTSD</option>
+              </select>
+        </div>
+        <!-- <div class="col-sm">
+          <input type="text" class="form-control" placeholder="Enter location" aria-label="State">
+        </div> -->
+        <div class="col-sm">
+          <button class="btn btn-success">Search</button>
+        </div>
+    </form>
+    <div id="result" class="position-absolute shadow">
+        <div class="list-group">
+            <div class="list-group-item">
+                <h4>Doctor name</h4>
+                <strong>Specialization</strong>
+                <p></p>
+                <button class="btn btn-sm btn-primary">Book</button>
+            </div>
+        </div>
+    </div> <br>
+    <h3 class="text-center p-3">PSYCHOLOGISTS INFORMATION</h3>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -45,7 +76,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="doctors">
           <div class="carousel-item active">
             <img src="./images/doctr1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
@@ -59,11 +90,12 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/doctr2.jpg" class="d-block w-100" alt="...">
+            <img src="./images/doct2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Dr. Emily VanCamp</h5>
               <p>
-                  Dr.VanCamp is one of the best financial stress psychologist that we have. <br>
+
+                  Dr. VanCamp is one of the best financial stress psychologist that we have. <br>
                   She has great experience of expertise gained at top hospitals. <br>
                   She also has 3 years of experience in Psychology field, especially with those dealing with
                   financial constraints.
@@ -106,7 +138,9 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/doct2.jpg" class="d-block w-100" alt="...">
+
+            <img src="./images/doct5.jpg" class="d-block w-100" alt="...">
+
             <div class="carousel-caption d-none d-md-block">
               <h5>Dr. John McLaren</h5>
                         <p>
@@ -162,7 +196,7 @@
           <a class="text-white" href="https://mdbootstrap.com/">MentalHelth</a>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <script src="./js/scripts.js"></script>
+    <script src="./js/scripts.js" type="module"></script>
     <script src="./js/find.js"></script>
 
 </body>

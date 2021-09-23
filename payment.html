@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/payment.css">
     <script src="./js/jquery.js" defer></script>
-    <script src="./js/scripts.js" defer></script>
+    <script src="./js/payment.js" defer></script>
 </head>
 
 <body>
@@ -33,15 +33,15 @@
     <div class="order">
         <h2>Services you are Purchasing</h2>
 
-        <div class="order-flex">
+        <div id="order-summary" class="order-flex">
             <div class="order1">
                 <img src="./images/do3.jpeg">
             </div>
             <div class="order2">
-                <p>Consultation with Dr. Mary<br>
-                    Date: 21/09/2021<br>
-                    Time: 15:30 pm<br>
-                    Mode: Physical<br>
+                <p>Consultation with<span class="dr-name">Dr. Mary</span> <br>
+                    Date:<span class="date">21/09/2021</span> <br>
+                    Time: <span class="time">15:30 pm</span><br>
+                    Service: <span class="specialization">Physical</span><br>
                 </p>
 
                 <p>Price: ksh. 350</p>
