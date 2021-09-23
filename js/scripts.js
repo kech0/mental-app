@@ -52,7 +52,7 @@ $(document).ready(function(){
                 resultDiv.find('div.list-group div.list-group-item:last p').html(doctor.description) 
                 resultDiv.find('div.list-group div.list-group-item:last button').on('click', function(){
                     localStorage.setItem('selectedDoctor', JSON.stringify(doctor))
-                    window.location = '/order.html'
+                    window.location = './order.html'
                 }) 
             }
         }
