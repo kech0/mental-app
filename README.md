@@ -27,8 +27,8 @@ Below is a brief summary of the features that the website provides:
 4. Copy the path of the index.html file to your browser and you will be able to access the application.
 
 <h2 align="center"> Technologies Used </h2>
-<p align="center">
-<img src="https://img.icons8.com/?size=512&id=Q5FXgRZybr2A&format=png" style="width:43px; height:43px;"><img src="https://img.icons8.com/?size=512&id=21278&format=png" style="width:50px; heigth:50px;"><img src="https://img.icons8.com/?size=512&id=108784&format=png" style="width:50px; heigth:50px;">
+<p>
+<img src="https://img.icons8.com/?size=512&id=Q5FXgRZybr2A&format=png" style="width:43px; height:43px;"><img src="https://img.icons8.com/?size=512&id=21278&format=png" style="width:50px; heigth:50px;"><img src="https://img.icons8.com/?size=512&id=108784&format=png" style="width:50px; heigth:50px;"><img src="https://img.icons8.com/?size=512&id=84710&format=png" style="width:50px; height:50px;">
 </p>
 
 
