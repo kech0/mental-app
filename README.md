@@ -11,10 +11,10 @@ This is a site for users to be able to get access to psychologists for mental he
 ## Features Summary
 
 Below is a brief summary of the features that the website provides:
-- User is able to sign in or register
-- User is able to browse through a list of profiles of specialists
-- User is able to search using several parameters
-- User is able to pay for the service rendered
+- User is able to sign in or register.
+- User is able to browse through a list of profiles of specialists.
+- User is able to search using several parameters.
+- User is able to pay for the service rendered.
 
 ## Setup/Installation Requirements
 
