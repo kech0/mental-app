@@ -10,3 +10,4 @@ $(document).ready(function () {
     summaryDiv.find(".date").html(schedule.date);
     summaryDiv.find(".time").html(schedule.time);
 })
+//functionality for the paymentt
