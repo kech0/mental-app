@@ -1,6 +1,6 @@
 <h1 align="center"> Mental Health App </h1>
 
-<p align="center">This is a site to connect users who may need mental health to psychologists, 20/09/2021.
+<p align="center">This is a site that connect users who may need mental health to psychologists . 20/09/2021.
 By Khajira Christopher, Louisiana Alela, Dancun Wawire, Martin Kecho
 </p>
 
