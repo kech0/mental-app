@@ -34,7 +34,7 @@ Below is a brief summary of the features that the website provides:
 
 ## Support and contact details
 
-If you have any issues or questions, you can get intouch with us through email: christopher.khajira@student.moringaschool.com. Please feel free to make any contributions to the code.
+If you have any issues or questions, you can get intouch with us through discord :https://discord.com/invite/PSf6eq3h
 
 ## License
 
